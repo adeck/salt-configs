@@ -9,6 +9,6 @@ vim_install:
       - curl
 
 include:
+  - nagios.nrpe
   - nagios.plugins
-  - nagios.nrpe.server
 

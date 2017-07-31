@@ -1,3 +1,0 @@
-[submodule "nagios-formula"]
-	path = formulas/nagios-formula
-	url = git@github.com:saltstack-formulas/nagios-formula

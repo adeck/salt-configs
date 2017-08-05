@@ -3,6 +3,6 @@
 base:
   '*':
     - common
-  'nagios-*':
-    - nagios
+  'icinga-*':
+    - alerting
 

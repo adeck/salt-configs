@@ -1,3 +1,3 @@
-[submodule "formulas/nagios-formula"]
-	path = formulas/nagios-formula
-	url = https://github.com/saltstack-formulas/nagios-formula
+[submodule "formulas/icinga2-formula"]
+	path = formulas/icinga2-formula
+	url = https://github.com/saltstack-formulas/icinga2-formula

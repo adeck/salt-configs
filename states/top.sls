@@ -3,6 +3,6 @@
 base:
   '*':
     - common
-  'icinga-*':
-    - alerting
+  'monitoring-*':
+    - monitoring
 

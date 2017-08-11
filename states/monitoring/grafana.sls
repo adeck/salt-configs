@@ -9,16 +9,16 @@ grafana_repo:
     - key_url: https://packagecloud.io/gpg.key
     - refresh_db: True
 
-grafana_server:
+grafana_package:
   pkg.installed:
-    - name: grafana-server
+    - name: grafana
     - require:
-      - pkgrepo: icinga_repo
+      - pkgrepo: grafana_repo
 
 grafana_service:
   service.running:
     - name: grafana-server
     - require:
-      - pkg: grafana_server
+      - pkg: grafana_package
 
 

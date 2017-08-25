@@ -4,5 +4,6 @@ base:
   '*':
     - common
   'monitoring-*':
-    - monitoring
+    - grafana
+    #- monitoring
 

@@ -1,0 +1,12 @@
+{% set grafana = salt['grains.filter_by']({
+    'Debian': {
+        'config': {},
+        'datasources': {},
+        'dashboards': {},
+    },
+    'Ubuntu': {
+        'config': {},
+        'datasources': {},
+        'dashbaorads': {},
+    },
+}, merge=salt['pillar.get']('grafana:lookup')) %}
